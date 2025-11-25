@@ -1,0 +1,40 @@
+@book{volterra1959theory,
+  title={Theory of functionals and of integral and integro-differential equations},
+  author={Volterra, Vito},
+  year={1959},
+  publisher={Dover Publications}
+}
+
+@article{brunner2004collocation,
+  title={Collocation methods for Volterra integral and related functional equations},
+  author={Brunner, Hermann},
+  journal={Acta Numerica},
+  volume={13},
+  pages={55--145},
+  year={2004},
+  publisher={Cambridge University Press}
+}
+
+@book{linz1985numerical,
+  title={Numerical methods for Volterra integral equations},
+  author={Linz, Peter},
+  year={1985},
+  publisher={SIAM}
+}
+
+@article{akeroyd2008volterra,
+  title={Volterra integral equations: A survey of recent advances},
+  author={Akeroyd, John R.},
+  journal={Mathematical Sciences},
+  volume={33},
+  number={2},
+  pages={75--97},
+  year={2008}
+}
+
+@book{corduneanu1991integral,
+  title={Integral equations and applications},
+  author={Corduneanu, Constantin},
+  year={1991},
+  publisher={Cambridge University Press}
+}
