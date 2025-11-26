@@ -1,0 +1,27 @@
+\section{Théorème d'Existence et d'Unicité}
+
+\begin{theorem}[Existence pour Volterra linéaire]
+Soit $K(x,t)$ une fonction continue sur $[a,b] \times [a,b]$ et $f(x)$ continue sur $[a,b]$. 
+Alors l'équation intégrale de Volterra de seconde espèce :
+\[
+y(x) = f(x) + \lambda \int_a^x K(x,t) y(t)  dt
+\]
+admet une solution unique $y \in C([a,b])$ pour toute valeur du paramètre $\lambda$.
+\end{theorem}
+
+\begin{proof}
+La démonstration utilise la méthode des approximations successives. 
+On définit la suite $(y_n)_{n \geq 0}$ par :
+\[
+y_0(x) = f(x), \quad y_{n+1}(x) = f(x) + \lambda \int_a^x K(x,t) y_n(t)  dt
+\]
+
+On montre par récurrence que cette suite converge uniformément vers une fonction $y$ 
+qui est l'unique solution de l'équation. L'hypothèse de continuité du noyau $K$ 
+garantit la convergence.
+\end{proof}
+
+\begin{remark}
+Ce théorème s'étend aux noyaux faiblement singuliers de la forme $K(x,t) = \frac{L(x,t)}{(x-t)^\alpha}$ 
+avec $0 \leq \alpha < 1$ et $L$ continue.
+\end{remark}
